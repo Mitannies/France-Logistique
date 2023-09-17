@@ -1,8 +1,8 @@
-# France-Logistique
-Ces codes sont mis a votre disposition gratuitement par Mitannie
-Vous pouvez modifier et partager les codes
-Aucun credit demander
+🔗 Liens vers les ressources:
 
-|| Tout les codes sont fonctionels mais doivent etre modifier par vous pour votre robot, comme le nom ou des descriptions... ||
+🤖 Bot de démonstration : https://discord.gg/2kvQFGGn3Y
+🤝 Serveur d'assistance : https://discord.gg/c5ppqYDdMP
 
-Mitannie, jeune développeur debutant en JavaScript.
+📦 Prérequis:
+
+Node.js v16.11.0 ou supérieur
