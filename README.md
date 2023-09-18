@@ -6,3 +6,8 @@
 📦 Prérequis:
 
 Node.js v16.11.0 ou supérieur
+
+ℹ️ Informations:
+
+Les fichier à vos disposition sont gratuits et sans licence. Vous pouvez les partager et/ou les modifier.
+Aucun crédit demander.
