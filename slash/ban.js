@@ -19,7 +19,7 @@ module.exports = {
         }
     ],
     role_perms: ['914941428457689134'], //Vous devez metre le ID du role capable de bannir, comme le role STAFF
-    developers_only: false,
+    developers_only: false, //Autoriser le proprietaire du bot uniquement = true, sinon false (Par defaut)
     category: 'Moderation',
     run: async (client, interaction, config) => {
         const userInput = interaction.options.get('user').value;
