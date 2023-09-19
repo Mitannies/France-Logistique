@@ -20,7 +20,7 @@ My heberge: https://myheberge.com
 
 **Problèmes**
 
-Si vous rencontrez un problème, ne paniquez pas ! Créez un problème ici et attendez que moi ou certaines personnes répondions à vos erreurs. N'oubliez pas de ne pas créer de problème incluant "c'est cassé", "ne fonctionne pas du tout" ou d'autres commentaires similaires comme celui-ci, merci.
+Si vous rencontrez un problème, ne paniquez pas ! Mentioner moir sur le serveur d'assistance et attendez que moi ou certaines personnes répondions à vos erreurs. N'oubliez pas de ne pas créer de problème incluant "c'est cassé", "ne fonctionne pas du tout" ou d'autres commentaires similaires comme celui-ci, merci.
 
 
 **Projet réalisé avec ❤ par Mitannie. Vous pouvez me créditer si vous le souhaitez. Merci !**
