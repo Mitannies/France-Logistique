@@ -2,17 +2,17 @@ const { MessageEmbed, MessageActionRow, MessageSelectMenu } = require("discord.j
 
 module.exports = {
   name: 'site',
-  description: 'Site Web de Cracks Games',
+  description: 'Site Web de  France Logistique',
   run: async (client, interaction) => {
     const embed = new MessageEmbed()
-      .setTitle(`:information_source: Voici le site officiel de Cracks Games`)
+      .setTitle(`:information_source: Voici le site officiel de France Logistique`)
       .setColor('#ed2224')
-      .setDescription(':pushpin: https://cracks-games.site')
-      .addField(`🔗 Liens:`,`- [Site web](https://cracks-games.site)`,true)
+      .setDescription(':pushpin: https://france-logistique-tmp.fr')
+      .addField(`🔗 Liens:`,`- [Site web]https://france-logistique-tmp.fr)`,true)
       .setTimestamp()
       .setFooter({
 
-        text: `Demandé par ${interaction.user.username} | Cracks Games Web`,
+        text: `Demandé par ${interaction.user.username} | France Logistique`,
         iconURL: interaction.user.displayAvatarURL()
       })
 
