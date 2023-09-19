@@ -8,11 +8,11 @@ module.exports = {
       .setTitle(`:tada: Vous souhaiter faire un don ?`)
       .setColor('#ed2224')
       .setDescription(':information_source: Je suis dessoler, je ne prend pas encore les  don !')
-      .addField(`🔗 Liens:`,`- [Site web](https://cracks-games.site)`,true)
+      .addField(`🔗 Liens:`,`- [Site web]https://france-logistique-tmp.fr)`,true)
       .setTimestamp()
       .setFooter({
 
-        text: `Demandé par ${interaction.user.username} | Cracks Games Web`,
+        text: `Demandé par ${interaction.user.username} | France Logistique`,
         iconURL: interaction.user.displayAvatarURL()
       })
 
