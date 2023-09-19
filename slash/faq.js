@@ -2,17 +2,17 @@ const { MessageEmbed, MessageActionRow, MessageSelectMenu } = require("discord.j
 
 module.exports = {
   name: 'faq',
-  description: 'FAQ de https://cracks-games.site',
+  description: 'FAQ de https://france-logistique-tmp.fr',
   run: async (client, interaction) => {
     const embed = new MessageEmbed()
-      .setTitle(`:information_source: Voici l'F.A.Q de https://cracks-games.site`)
+      .setTitle(`:information_source: Voici l'F.A.Q de https://france-logistique-tmp.fr`)
       .setColor('#ed2224')
-      .setDescription(':pushpin: https://cracks-games.site/faq')
-      .addField(`🔗 Liens:`,`- [Site web](https://cracks-games.site)`,true)
+      .setDescription(':pushpin: https://france-logistique-tmp.fr/faq')
+      .addField(`🔗 Liens:`,`- [Site web](https://france-logistique-tmp.fr)`,true)
       .setTimestamp()
       .setFooter({
 
-        text: `Demandé par ${interaction.user.username} | Cracks Games Web`,
+        text: `Demandé par ${interaction.user.username} | France Logistique`,
         iconURL: interaction.user.displayAvatarURL()
       })
 
