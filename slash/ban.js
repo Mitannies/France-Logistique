@@ -52,7 +52,7 @@ module.exports = {
             return interaction.channel.send({
                 embeds: [
                     new EmbedBuilder()
-                        .setDescription(`${user} a été banni.`)
+                        .setDescription(`${user} a été banni !`)
                         .setColor('Red')
                 ]
             });
@@ -66,7 +66,7 @@ module.exports = {
 };
 
 // Code fait par Mitannie
-//Pour plus de code gratuit: https://github.com/Mitannies/France-Logistique
+// Pour plus de code gratuit: https://github.com/Mitannies/France-Logistique
 // Licence MIT:
 // MIT License
 
