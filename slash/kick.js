@@ -33,7 +33,7 @@ module.exports = {
         });
 
         if (!user.kickable) return interaction.reply({
-            content: `\`❌\` L'utilisateur n'est pas kickable.`,
+            content: `\`❌\` Imposible de kicker l'utilisateur`,
             ephemeral: true
         });
 
