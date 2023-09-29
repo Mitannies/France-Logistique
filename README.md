@@ -7,7 +7,9 @@
 🤝 Serveur d'assistance : https://discord.gg/c5ppqYDdMP
 
 **ℹ️ Informations:**
+
 Ces commandes ont été fait pour **1 serveur discord** et non plusieurs serveur. Ne mettez pas votre bot en invitation par tout le monde, sinon les commande ne marcheront pas !
+
 **Configurer le projet**
 
 Télécharger les fichier dans un .zip. Vous devez déjà avoir un bot discord avec Node.js v16.11.0 ou supérieur
