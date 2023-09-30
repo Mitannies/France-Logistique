@@ -5,9 +5,9 @@ module.exports = {
   description: 'Faire un dons',
   run: async (client, interaction) => {
     const embed = new MessageEmbed()
-      .setTitle(`:tada: Vous souhaiter faire un don ?`)
+      .setTitle(`:tada: Voici le Patreon de France Logistique. Merci beaucoup pour votre soutien !`)
       .setColor('#ed2224')
-      .setDescription(':information_source: Je suis dessoler, je ne prend pas encore les  don !')
+      .setDescription(':information_source: https://patreon.com/FranceLogistique')
       .addField(`🔗 Liens:`,`- [Site web]https://france-logistique-tmp.fr)`,true)
       .setTimestamp()
       .setFooter({
