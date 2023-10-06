@@ -5,14 +5,14 @@ module.exports = {
   description: 'Site Web de  France Logistique',
   run: async (client, interaction) => {
     const embed = new MessageEmbed()
-      .setTitle(`:information_source: Voici le site officiel de France Logistique`)
+      .setTitle(`:information_source: Voici le site officiel de ${client.user.username}`)
       .setColor('#ed2224')
       .setDescription(':pushpin: https://france-logistique-tmp.fr')
       .addField(`🔗 Liens:`,`- [Site web]https://france-logistique-tmp.fr)`,true)
       .setTimestamp()
       .setFooter({
 
-        text: `Demandé par ${interaction.user.username} | France Logistique`,
+        text: `Demandé par ${interaction.user.username} | ${client.user.username}`,
         iconURL: interaction.user.displayAvatarURL()
       })
 
