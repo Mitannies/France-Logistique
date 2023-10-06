@@ -5,7 +5,7 @@ module.exports = {
   description: 'FAQ de https://france-logistique-tmp.fr',
   run: async (client, interaction) => {
     const embed = new MessageEmbed()
-      .setTitle(`:information_source: Voici l'F.A.Q de https://france-logistique-tmp.fr`)
+      .setTitle(`:information_source: Voici l'F.A.Q de ${client.user.username}`)
       .setColor('#ed2224')
       .setDescription(':pushpin: https://france-logistique-tmp.fr/faq')
       .addField(`🔗 Liens:`,`- [Site web](https://france-logistique-tmp.fr)`,true)
