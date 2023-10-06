@@ -12,7 +12,7 @@ module.exports = {
       .setTimestamp()
       .setFooter({
 
-        text: `Demandé par ${interaction.user.username} | France Logistique`,
+        text: `Demandé par ${interaction.user.username} | ${client.user.username}`,
         iconURL: interaction.user.displayAvatarURL()
       })
 
