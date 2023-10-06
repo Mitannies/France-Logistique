@@ -58,7 +58,7 @@ module.exports = {
             });
         } catch {
             return interaction.reply({
-                content: `\`❌\` Quelque chose s'est mal passé !`,
+                content: `\`❌\` Quelque chose s'est mal passé ! `,
                 ephemeral: true
             });
         };
