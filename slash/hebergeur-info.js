@@ -7,12 +7,15 @@ module.exports = {
     const embed = new MessageEmbed()
       .setTitle(` » Voici les informations sur mon hébergeur`)
       .setColor('#005a45')
-      .setDescription(':speech_balloon: Mon hébergeur et mon créateur @mitannie, je suis toujours en phase de développement donc pas besoin de serveur.')
+      .setDescription(' ')
+      .addFields(
+        { name: ' ', value: `Actuellement, je suis hébergé sur les differents stockage de mon dévellopeur, Mitannie. Plus tard, je serais sois heberger sur un ancien pc qui tournera H24 à Mitannie ou sur un serveur !`, inline: false },
+        )
       .addField(`🔗 Liens:`,`- [Site web](https://france-logistique-tmp.fr)`,true)
       .setTimestamp()
       .setFooter({
 
-        text: `Demandé par ${interaction.user.username} | France Logistique`,
+        text: `Demandé par ${interaction.user.username} | ${client.user.tag}`,
         iconURL: interaction.user.displayAvatarURL()
       })
 
