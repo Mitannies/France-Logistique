@@ -5,14 +5,14 @@ module.exports = {
   description: 'Faire un dons',
   run: async (client, interaction) => {
     const embed = new MessageEmbed()
-      .setTitle(`:tada: Voici le Patreon de France Logistique. Merci beaucoup pour votre soutien !`)
+      .setTitle(`:tada: Voici le Patreon de ${client.user.username}. Merci beaucoup pour votre soutien !`)
       .setColor('#ed2224')
       .setDescription(':information_source: https://patreon.com/FranceLogistique')
       .addField(`🔗 Liens:`,`- [Site web]https://france-logistique-tmp.fr)`,true)
       .setTimestamp()
       .setFooter({
 
-        text: `Demandé par ${interaction.user.username} | ${client.user.tag}`,
+        text: `Demandé par ${interaction.user.username} | ${client.user.username}`,
         iconURL: interaction.user.displayAvatarURL()
       })
 
