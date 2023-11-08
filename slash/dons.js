@@ -1,18 +1,18 @@
 const { MessageEmbed, MessageActionRow, MessageSelectMenu } = require("discord.js")
 
 module.exports = {
-  name: 'don',
+  name: 'dons',
   description: 'Faire un dons',
   run: async (client, interaction) => {
     const embed = new MessageEmbed()
-      .setTitle(`:tada: Voici le Patreon de ${client.user.username}. Merci beaucoup pour votre soutien !`)
-      .setColor('#ed2224')
+      .setTitle(`:tada: Voici le Patreon de France Logistique. Merci beaucoup pour votre soutien !`)
+      .setColor('#005a45')
       .setDescription(':information_source: https://patreon.com/FranceLogistique')
-      .addField(`🔗 Liens:`,`- [Site web]https://france-logistique-tmp.fr)`,true)
+      .addField(`🔗 Liens:`,`- [Site web](https://france-logistique-tmp.fr)`,true)
       .setTimestamp()
       .setFooter({
 
-        text: `Demandé par ${interaction.user.username} | ${client.user.username}`,
+        text: `Demandé par ${interaction.user.username} | ${client.user.tag}`,
         iconURL: interaction.user.displayAvatarURL()
       })
 
