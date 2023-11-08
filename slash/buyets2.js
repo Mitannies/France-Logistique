@@ -5,9 +5,12 @@ module.exports = {
   description: 'Obtenir le jeux Euro Truck Simulator 2',
   run: async (client, interaction) => {
     const embed = new MessageEmbed()
-      .setTitle(`:lock: Vous souhaiter acheter euro truck simulator 2 ? `)
+      .setTitle(`» Vous souhaiter acheter euro truck simulator 2 ? `)
       .setColor('#005a45')
-      .setDescription(':pushpin: https://bitly.ws/UTuE')
+      .setDescription('')
+      .addFields(  
+        { name: 'Voici ETS2 disponible sur Instant Gaming !', value: `https://bit.ly/472rD1E`, inline: false },
+      )
       .addField(`🔗 Liens:`,`- [Site web](https://france-logistique-tmp.fr)`,true)
       .setTimestamp()
       .setFooter({
