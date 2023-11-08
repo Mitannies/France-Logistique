@@ -11,7 +11,7 @@ module.exports = {
       .addField(`Liens:`, `- [Site web](https://france-logistique-tmp.fr)`, true)
       .setTimestamp()
       .setFooter({
-        text: `Demandé par ${interaction.user.username} | ${client.user.username}`,
+        text: `Demandé par ${interaction.user.username} | France Logistique`,
         iconURL: interaction.user.displayAvatarURL()
       })
 
@@ -30,7 +30,7 @@ module.exports = {
       )
       .setTimestamp()
       .setFooter({
-        text: `Demandé par ${interaction.user.username} | France Logistique${client.user.username}`,
+        text: `Demandé par ${interaction.user.username} | France Logistique`,
         iconURL: interaction.user.displayAvatarURL()
       })
 
@@ -47,7 +47,7 @@ module.exports = {
       )
       .setTimestamp()
       .setFooter({
-        text: `Demandé par ${interaction.user.username} | ${client.user.username}`,
+        text: `Demandé par ${interaction.user.username} | France Logistique`,
         iconURL: interaction.user.displayAvatarURL()
       })
 
